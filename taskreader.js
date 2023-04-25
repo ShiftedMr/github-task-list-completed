@@ -1,4 +1,7 @@
-const checkOutstandingTasks = require('./src/check-outstanding-tasks');
+/**
+ * @param {import('probot').Probot} app
+ */
+const checkOutstandingTasks=require('./src/check-outstanding-tasks');
 
 const ENABLE_ID_LOGS = true; // simple ID only logs, no private repo data logged
 
